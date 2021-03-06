@@ -4,6 +4,7 @@ help: ## print this message
 
 build: ## update the browser builds
 	@./node_modules/.bin/gulp build
+	npx rollup -c
 
 test: ## run tests either in the browser or in Node.js, based on the `BROWSERS` variable
 	@./node_modules/.bin/gulp test

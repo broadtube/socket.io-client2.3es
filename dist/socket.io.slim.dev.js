@@ -1,8 +1,3 @@
-/*!
- * Socket.IO v2.3.1
- * (c) 2014-2020 Guillermo Rauch
- * Released under the MIT License.
- */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();

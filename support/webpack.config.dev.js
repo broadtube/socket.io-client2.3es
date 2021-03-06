@@ -4,7 +4,7 @@ module.exports = {
   entry: './lib/index.js',
   output: {
     library: 'io',
-    libraryTarget: 'umd',
+    libraryTarget: 'commonjs',
     filename: 'socket.io.dev.js'
   },
   externals: {

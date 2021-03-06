@@ -5,7 +5,7 @@ var baseConfig = require('./webpack.config.dev.js');
 module.exports = merge(baseConfig, {
   output: {
     library: 'io',
-    libraryTarget: 'umd',
+    libraryTarget: 'commonjs',
     filename: 'socket.io.js'
   },
   plugins: [
